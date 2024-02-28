@@ -20,7 +20,7 @@ Before running the script, ensure you meet the following prerequisites:
 3. **Create Forest/Domain**: Run the following command to create the Forest/domain:
    ```powershell
    Install-ADDSForest -DomainName "sudo.local" -SafeModeAdministratorPassword (ConvertTo-SecureString "P@$$w0rd" -AsPlainText -Force) -InstallDns -Force
-4. **Download Employees file**: Make sure you downloaded "Employees.txt"
+4. **Download Employees file**: Make sure you downloaded `Employees.txt`
 4. **Run The Script**: Now you can run the script `script.ps1`
 
 
