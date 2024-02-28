@@ -4,7 +4,7 @@ This repository contains a PowerShell script for configuring Active Directory se
 
 ## Functionality
 
-The script includes the following functionalities:
+The script includes the following functionalities, but it is not limited to them:
 - Creation of users with weak passwords
 - Creation of service accounts
 - Configuration of users with reversible password encryption
