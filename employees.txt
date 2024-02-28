@@ -1,0 +1,6 @@
+Name,Password,ou
+nawaf,Password1,"OU=Lab,DC=sudo,DC=local"
+designer,QAZXSWqazxsw!!11,"OU=Lab,DC=sudo,DC=local"
+khalid,P@$$worD12,"OU=Lab,DC=sudo,DC=local"
+manager,MYpassword123#,"OU=Lab,DC=sudo,DC=local"
+SQL SERVICE,QAstrong&%98,"OU=Lab,DC=sudo,DC=local"
