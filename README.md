@@ -6,10 +6,11 @@ This repository contains a PowerShell script for configuring Active Directory se
 
 The script includes the following functionalities, but it is not limited to them:
 - Creation of users with weak passwords
-- Creation of service accounts
+- Creation of service accounts (Kerberoasting)
 - Configuration of users with reversible password encryption
 - Planned ACL/ACE and DSync attacks (work in progress)
 - Creation of an SMB share with full access (LNK Attack)
+- Password Reuse (Pass the Hash)
 
 ## DC Configuration
 
