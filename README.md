@@ -11,7 +11,7 @@ The script includes the following functionalities, but it is not limited to them
 - Planned ACL/ACE and DSync attacks (work in progress)
 - Creation of an SMB share with full access (LNK Attack)
 
-## DC
+## DC Configuration
 
 Before running the script, ensure you meet the following prerequisites:
 
