@@ -11,7 +11,7 @@ The script includes the following functionalities, but it is not limited to them
 - Planned ACL/ACE and DSync attacks (work in progress)
 - Creation of an SMB share with full access (LNK Attack)
 
-## Prerequisites
+## DC
 
 Before running the script, ensure you meet the following prerequisites:
 
@@ -22,5 +22,13 @@ Before running the script, ensure you meet the following prerequisites:
    Install-ADDSForest -DomainName "sudo.local" -SafeModeAdministratorPassword (ConvertTo-SecureString "P@$$w0rd" -AsPlainText -Force) -InstallDns -Force
 4. **Download Employees file**: Make sure you downloaded `Employees.txt`
 4. **Run The Script**: Now you can run the script `script.ps1`
+
+
+## Workstations Configuration 
+
+Make sure there is a connectivity between Your computers and the DC 
+
+1. Run Computer1-configuration on Computer 1
+2. Run Computer2-configuration on computer 2
 
 
