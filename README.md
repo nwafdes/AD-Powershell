@@ -28,7 +28,7 @@ Before running the script, ensure you meet the following prerequisites:
 
 Make sure there is a connectivity between Your computers and the DC 
 
-1. Run Computer1-configuration on Computer 1
-2. Run Computer2-configuration on computer 2
+1. Run `Computer1-configuration` on Computer 1
+2. Run `Computer2-configuration` on computer 2
 
 
