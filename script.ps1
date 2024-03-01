@@ -3,6 +3,8 @@
 # install certificate service 
 Install-WindowsFeature -Name ADCS-Cert-Authority -IncludeManagementTools
 
+Install-AdcsCertificationAuthority -CAType EnterpriseRootCA -Credential (Get-Credential sudo\Administrator) -ValidityPeriod "Years" -ValidityPeriodUnits 10
+
 
 # turn on network discovery 
 Set-NetIPInterface -NeighborDiscoverySupported Yes
