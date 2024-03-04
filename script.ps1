@@ -8,9 +8,14 @@ Install-AdcsCertificationAuthority -CAType EnterpriseRootCA -Credential (Get-Cre
 
 # turn on network discovery 
 Set-NetIPInterface -NeighborDiscoverySupported Yes
+Get-NetFirewallRule -DisplayGroup 'Network Discovery' | Set-NetFirewallRule -Profile 'Public' -Enabled true
+
+# Create the 'shares' folder in C:\
+New-Item -Path "C:\shares\Treasure" -ItemType Directory
+
 
 # create SMB Share 
-New-SmbShare -Name 'Treasure' -Path 'C:\' -FullAccess 'sudo\Domain Users' 
+New-SmbShare -Name 'Treasure' -Path 'C:\shares\' -FullAccess 'sudo\Domain Users' 
 
 # create ou 
 New-ADOrganizationalUnit -Name Lab -Path "DC=sudo,DC=local"
