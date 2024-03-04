@@ -29,7 +29,7 @@ Before running the script, ensure you meet the following prerequisites:
 
 Make sure there is connectivity between Your computers and the DC 
 
-1. Edit this IP address and use the DC IP `Set-DnsClientServerAddress -InterfaceIndex $inet_index -ServerAddresses "192.168.77.14"`
+1.  <span style="color:#00b050">Edit The Ip address, and use the IP address of your DC</span>
 2. Run `Computer1-configuration` on Computer 1
 3. Run `Computer2-configuration` on computer 2
 
