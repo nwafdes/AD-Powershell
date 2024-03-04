@@ -27,9 +27,10 @@ Before running the script, ensure you meet the following prerequisites:
 
 ## Workstations Configuration 
 
-Make sure there is a connectivity between Your computers and the DC 
+Make sure there is connectivity between Your computers and the DC 
 
-1. Run `Computer1-configuration` on Computer 1
-2. Run `Computer2-configuration` on computer 2
+1. Edit this IP address and use the DC IP `Set-DnsClientServerAddress -InterfaceIndex $inet_index -ServerAddresses "192.168.77.14"`
+2. Run `Computer1-configuration` on Computer 1
+3. Run `Computer2-configuration` on computer 2
 
 
