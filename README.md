@@ -30,7 +30,7 @@ Before running the script, ensure you meet the following prerequisites:
 Make sure there is connectivity between Your computers and the DC 
 
 1. Edit The IP address, and use the IP address of your DC
-2. Run `Computer1-configuration` on Computer 1
-3. Run `Computer2-configuration` on computer 2
+2. when you are prompted to type the Computer name (you have 2 choices only, computer1/computer2)
+3. run `computer_config.ps1`
 
 
