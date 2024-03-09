@@ -30,8 +30,10 @@ Before running the script, ensure you meet the following prerequisites:
 Make sure there is connectivity between Your computers and the DC 
 
 1. Edit The $ip variable, and use the IP address of your DC
-2. Start Powershell with elevated privileges and then run `set-executionpolicy Bypass -scope process`
-3. when you are prompted to type the Computer name (you have 2 choices only, computer1/computer2) Please make sure to type them correctly to avoid any future errors.
-4. Now you are ready to run `computer_config.ps1`
+2. Start Powershell with elevated privileges and then run :
+   ```powershell
+      set-executionpolicy Bypass -scope process
+4. when you are prompted to type the Computer name (you have 2 choices only, `computer1`/`computer2`) Please make sure to type them correctly to avoid any future errors.
+5. Now you are ready to run `computer_config.ps1`
 
 
