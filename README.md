@@ -22,7 +22,7 @@ Before running the script, ensure you meet the following prerequisites:
    ```powershell
    Install-ADDSForest -DomainName "sudo.local" -SafeModeAdministratorPassword (ConvertTo-SecureString "P@$$w0rd" -AsPlainText -Force) -InstallDns -Force
 4. **Download Employees file**: Make sure you downloaded `Employees.txt`
-4. **Run The Script**: Now you can run the script `script.ps1`
+4. **Run The Script**: Now you can run the script `DC_config.ps1`
 
 
 ## Workstations Configuration 
